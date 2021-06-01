@@ -5,7 +5,7 @@ body {
 }
 
 .appbar {
-    display: block;
+    display: table;
     background-color: rgb(21, 72, 117);
     overflow: hidden;
     position: static;
