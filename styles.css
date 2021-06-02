@@ -1,16 +1,33 @@
+@font-face {
+    font-family: slimFont;
+    src: url("Fonts/Montserrat-ExtraLight.ttf");
+}
+
 body {
     margin: 0px 0px;
     padding: 0px 0px;
     overflow-x: hidden;
-    background-color: rgb(29, 29, 29);
     background-image: url("media/green_blu.jpg");
     /*  background-repeat: no-repeat;
     background-size: cover; */
 }
 
+h1.title {
+    float: initial;
+    color: white;
+    margin: 0px 10px;
+    height: 0px;
+    border: 0px;
+    top: 25%;
+    font-size: 200%;
+    font-family: slimFont;
+    position: relative;
+}
+
 .appbar {
     display: table;
-    background-color: rgb(21, 72, 117);
+    align-items: center;
+    background-color: rgba(21, 72, 117, 0.548);
     overflow: hidden;
     position: static;
     margin: 0px auto;
@@ -20,7 +37,7 @@ body {
 }
 
 .socialmedia {
-    background-color: rgb(21, 72, 117);
+    background-color: rgb(21, 72, 117, 0.548);
     height: 75px;
     width: 75px;
     border: 0ch;
@@ -29,7 +46,7 @@ body {
 }
 
 .socialmedia:hover {
-    background-color: rgb(34, 128, 209);
+    background-color: rgb(34, 128, 209, 0.548);
     height: 75px;
     width: 75px;
     animation-name: buttonanimation;
@@ -87,9 +104,9 @@ body {
     position: absolute;
     top: 75px;
     left: 50%;
-    background-color: black;
-    color: white;
-    width: 60%;
+    background-color: rgba(0, 0, 0, 0.849);
+    color: rgba(255, 255, 255, 0.589);
+    width: 100%;
     height: 100%;
     transform: skewX(-45deg);
 }
@@ -104,7 +121,7 @@ body {
 .inclinedwall>ul>li {
     transform: skew(+45deg);
     font-size: 80%;
-    padding: 1%;
+    padding: 0.5%;
 }
 
 .inclinedwall>ul>li :hover {
@@ -116,13 +133,12 @@ body {
 #peptalk {
     width: 100%;
     transform: skewX(45deg);
-    padding-left: 10%;
+    padding-left: 5%;
     font-size: 150%;
     overflow: visible;
     overflow-wrap: break-word;
     font-weight: 100;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: rgba(255, 255, 255, 0.603);
 }
 
 @keyframes buttonanimation {
@@ -145,7 +161,7 @@ body {
 
 #flutter h1 {
     padding: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: slimFont;
     color: black;
     font-size: 200%;
 }
