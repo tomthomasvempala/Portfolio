@@ -14,10 +14,25 @@
     position: absolute;
     top: 210%;
     font-family: lessslimFont;
+    color: rgba(255, 255, 255, 0.808);
     background-color: rgb(0, 13, 37);
+    background-image: url("../media/screen.jpg");
 }
 
 #cpheader {
     padding: 30px;
-    color: white
+    color: white;
+}
+
+#cpbody {
+    padding: 40px;
+}
+
+#cpbody>p {
+    font-size: 140%;
+}
+
+#cpbody>ul>li {
+    font-size: 110%;
+    padding: 10px;
 }
