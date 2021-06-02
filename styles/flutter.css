@@ -9,16 +9,19 @@
 }
 
 #flutter {
-    height: 100%;
+    scroll-snap-type: y mandatory;
+    height: 120%;
     width: 100%;
     top: 100%;
-    box-shadow: 5px 4px 8px 4px rgba(0, 0, 0, 5);
+    box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 5);
     position: absolute;
     background-color: white;
 }
 
 #FlutterTile {
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
     height: 150px;
     width: 100%;
     align-items: center;
@@ -55,6 +58,15 @@ h1#flutterheading {
     margin: 0px 50px;
     text-align: center;
     width: 20%;
+}
+
+#andmore {
+    float: left;
+    align-content: flex-end;
+    margin: auto;
+    font-family: lessslimFont;
+    margin: 0px 50px;
+    text-align: center;
 }
 
 #oneApp>p {

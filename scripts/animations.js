@@ -5,11 +5,12 @@ document.write(
 $(document).ready(function() {
 
     $(document).on('scroll', function() {
-        $(".inclinedwall>ul>li").fadeIn(1000);
 
-        if ($(this).scrollTop() >= $('#flutter').position().top) {
-            $("#flutterApps").fadeIn(1000);
+        if ($(this).scrollTop() >= $('#FlutterTile').position().top) {
+            $("#flutterApps").fadeIn(1500);
+
             console.log('Flutter loaded');
         }
+
     })
 });

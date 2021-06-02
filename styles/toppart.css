@@ -9,9 +9,10 @@
 }
 
 .topPart {
-    position: absolute;
+    position: relative;
     width: 100vw;
     height: 100vh;
+    min-height: 600px;
     background-image: url("../media/green_blu.jpg");
     background-size: cover;
 }
