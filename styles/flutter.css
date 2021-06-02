@@ -1,0 +1,72 @@
+@font-face {
+    font-family: slimFont;
+    src: url("../Fonts/Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: lessslimFont;
+    src: url("../Fonts/Montserrat-Medium.ttf");
+}
+
+#flutter {
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    box-shadow: 5px 4px 8px 4px rgba(0, 0, 0, 5);
+    position: absolute;
+    background-color: white;
+}
+
+#FlutterTile {
+    padding: 20px;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+}
+
+h1#flutterheading {
+    padding-left: 20px;
+    float: left;
+    font-family: slimFont;
+    color: black;
+    font-size: 250%;
+}
+
+#flutterlogo {
+    position: relative;
+    float: left;
+    width: 75px;
+    height: 75px;
+    align-content: center;
+}
+
+#flutterApps {
+    position: absolute;
+    display: none;
+    top: 150px;
+    transition: transform 1s;
+}
+
+#oneApp {
+    float: left;
+    align-content: center;
+    margin: auto;
+    font-family: lessslimFont;
+    margin: 0px 50px;
+    text-align: center;
+    width: 20%;
+}
+
+#oneApp>p {
+    padding: 5px;
+    font-size: 80%;
+    margin: 5px;
+}
+
+#oneApp>#appname {
+    font-size: 120%;
+}
+
+#screenshotflutter {
+    height: 420px;
+}
