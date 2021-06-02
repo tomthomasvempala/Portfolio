@@ -8,6 +8,23 @@
     src: url("Fonts/Montserrat-Medium.ttf");
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 20px;
+    background: #888;
+}
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
 body {
     margin: 0px 0px;
     padding: 0px 0px;
@@ -80,6 +97,7 @@ h1.title {
 }
 
 .propic {
+    display: block;
     align-items: center;
     height: 250px;
     width: 250px;
@@ -157,7 +175,7 @@ h1.title {
         background-color: rgb(21, 72, 117);
     }
     to {
-        background-color: rgb(34, 128, 209);
+        background-color: rgba(34, 127, 209, 0.342);
     }
 }
 
@@ -195,6 +213,7 @@ h1#flutterheading {
 
 #flutterApps {
     position: absolute;
+    display: none;
     top: 150px;
     transition: transform 1s;
 }
