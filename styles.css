@@ -3,13 +3,25 @@
     src: url("Fonts/Montserrat-ExtraLight.ttf");
 }
 
+@font-face {
+    font-family: lessslimFont;
+    src: url("Fonts/Montserrat-Medium.ttf");
+}
+
 body {
     margin: 0px 0px;
     padding: 0px 0px;
     overflow-x: hidden;
-    background-image: url("media/green_blu.jpg");
     /*  background-repeat: no-repeat;
     background-size: cover; */
+}
+
+.topPart {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url("media/green_blu.jpg");
+    background-size: cover;
 }
 
 h1.title {
@@ -37,7 +49,6 @@ h1.title {
 }
 
 .socialmedia {
-    background-color: rgb(21, 72, 117, 0.548);
     height: 75px;
     width: 75px;
     border: 0ch;
@@ -46,7 +57,7 @@ h1.title {
 }
 
 .socialmedia:hover {
-    background-color: rgb(34, 128, 209, 0.548);
+    background-color: rgba(34, 127, 209, 0.342);
     height: 75px;
     width: 75px;
     animation-name: buttonanimation;
@@ -104,7 +115,7 @@ h1.title {
     position: absolute;
     top: 75px;
     left: 50%;
-    background-color: rgba(0, 0, 0, 0.849);
+    background-color: rgba(0, 0, 0, 0.767);
     color: rgba(255, 255, 255, 0.589);
     width: 100%;
     height: 100%;
@@ -159,9 +170,55 @@ h1.title {
     background-color: white;
 }
 
-#flutter h1 {
+#FlutterTile {
     padding: 20px;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+}
+
+h1#flutterheading {
+    padding-left: 20px;
+    float: left;
     font-family: slimFont;
     color: black;
-    font-size: 200%;
+    font-size: 250%;
+}
+
+#flutterlogo {
+    position: relative;
+    float: left;
+    width: 75px;
+    height: 75px;
+    align-content: center;
+}
+
+#flutterApps {
+    position: absolute;
+    top: 150px;
+    transition: transform 1s;
+}
+
+#oneApp {
+    float: left;
+    align-content: center;
+    margin: auto;
+    font-family: lessslimFont;
+    margin: 0px 50px;
+    text-align: center;
+    width: 20%;
+}
+
+#oneApp>p {
+    padding: 5px;
+    font-size: 80%;
+    margin: 5px;
+}
+
+#oneApp>#appname {
+    font-size: 120%;
+}
+
+#screenshotflutter {
+    height: 420px;
 }
