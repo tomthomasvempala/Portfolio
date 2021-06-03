@@ -18,8 +18,9 @@
 body {
     margin: 0px 0px;
     padding: 0px 0px;
+    overflow-y: auto;
     overflow-x: hidden;
-    scroll-snap-type: inline mandatory;
+    scroll-snap-type: proximity;
     /*  background-repeat: no-repeat;
     background-size: cover; */
 }
