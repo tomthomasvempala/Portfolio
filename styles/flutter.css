@@ -9,7 +9,7 @@
 }
 
 #flutter {
-    scroll-snap-type: y mandatory;
+    scroll-snap-align: center;
     height: 120%;
     width: 100%;
     top: 100%;
@@ -50,7 +50,7 @@ h1#flutterheading {
     transition: transform 1s;
 }
 
-#oneApp {
+.oneApp {
     float: left;
     align-content: center;
     margin: auto;
@@ -69,16 +69,31 @@ h1#flutterheading {
     text-align: center;
 }
 
-#oneApp>p {
+.oneApp>p {
     padding: 5px;
     font-size: 80%;
     margin: 5px;
 }
 
-#oneApp>#appname {
+.oneApp>#appname {
     font-size: 120%;
 }
 
-#screenshotflutter {
+.screenshotflutter {
     height: 420px;
+}
+
+.screenshotflutter :hover {
+    height: 220px;
+    animation-name: phoneanimation;
+    animation-duration: 250ms;
+}
+
+@keyframes phoneanimation {
+    from {
+        height: 420px;
+    }
+    to {
+        height: 220px;
+    }
 }

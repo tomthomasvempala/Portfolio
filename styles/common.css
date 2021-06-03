@@ -19,6 +19,12 @@ body {
     margin: 0px 0px;
     padding: 0px 0px;
     overflow-x: hidden;
+    scroll-snap-type: inline mandatory;
     /*  background-repeat: no-repeat;
     background-size: cover; */
 }
+
+
+/* .parts {
+    scroll-snap-align: center;
+} */
